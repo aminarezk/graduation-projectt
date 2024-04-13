@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    background-color: white;
+
+}
+
+  body{
+    background-color: whitesmoke;
+    size: 20px;
+  }
+  
+header .container{
+  display:flex;
+  justify-content: flex-start;
+  align-content: center;
+  position: relative;
+  text-indent: 18px;
+  
+}
+
+header .container::after{
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #C0C0C0;
+  bottom: -8px;
+  width: 100%;
+  left: 1px;
+  
+
+}
+
+  header .head {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "El Messiri";
+    text-align: right;
+
+  }
+  .navbar.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .body{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("images/mortar-board-graduation-diplomuua 1.png");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+  }
+  .body h1{
+    color: white;
+    align-items: center;
+    font-size: 74px;
+    transform: translate(10px, 334px);
+  }
+  .card {
+    width: 190px;
+    height: 254px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
+   
+   .shadow {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(190, 190, 190),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+   }
+   
+   
+  
+  /* line*/
+  .custom-line {
+    width: 10%; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: #56abb6; /* لون الخط */
+    margin-right: 10px;
+  }
+  
+  .beg h5{
+    margin-right: 23px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+  }
+  .h2 {
+text-align: right;
+font-family: Cairo;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+    /* العناوين للاقسام*/
+  .custom-line {
+    width: 10%; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: rgb(71, 176, 224); /* لون الخط */
+    margin-right: 20px;
+  }
+  .customier-line {
+    width: 85px; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: rgba(20, 168, 149, 0.664); /* لون الخط */
+    margin-left: -40px;
+  }
+.math {
+    display: flex;
+    gap: 10px;
+  }
+  .computer{
+    display: flex;
+    gap: 10px;
+  }
+  .phis{
+    display: flex;
+    gap: 100px;
+  }
+  .chemic{
+    display: flex;
+    gap: 100px;
+  }
+  .Geology{
+    display: flex;
+    gap: 50px;
+  }
+  .plants{
+    display: flex;
+    gap: 50px;
+  }
+  .animals{
+    display: flex;
+    gap: 50px;
+  }
+  .customer-line {
+    width: 45%; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: #A92020; /* لون الخط */
+    margin-right: 20px;
+  }
+  .customier-line {
+    width: 85px; /* عرض الخط */
+    height: 3px; /* ارتفاع الخط */
+    background-color: rgba(20, 168, 149, 0.664); /* لون الخط */
+    margin-left: -40px;
+  }
+
+
+ 
+
+  /*end*/
+.endd{
+  display: flex;
+  gap: 100px;
+  background-color: #012C32;
+}
+.endd h6{
+  margin-right:30px;
+  margin-top: 20px;
+  color: white;
+}
+.foter{
+  background-color: #012C32;
+  color: white;
+  text-shadow: #212121;
+
+}
+center.foter::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 70%);
+}

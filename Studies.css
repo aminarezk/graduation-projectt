@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    background-color: white;
+
+
+}
+
+  body{
+    background-color: whitesmoke;
+    size: 20px;
+
+
+  }
+
+  
+header .container{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
+  text-indent: 18px;
+  
+}
+
+header .container::after{
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #C0C0C0;
+  bottom: -8px;
+  width: 100%;
+  left: 1px;
+  
+
+}
+
+  header .head {
+    display: flex;
+    justify-content: space-between;
+    font-family: "El Messiri";
+    text-align: right;
+
+  }
+  .body{
+    background:url("images/mortargraduation-diploma 1.png");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+  }
+  .body h1{
+    color: black;
+    align-items: center;
+    font-size: 74px;
+    padding-top: 237px;
+  }
+  .beg{
+    display: flex;
+    gap: 120px;
+  }
+  .textt{
+    margin-right: 80px;
+  }
+  /* line */
+.custom-line {
+  width: 17%; /* عرض الخط */
+  height: 2px; /* ارتفاع الخط */
+  background-color: rgb(66, 194, 199); /* لون الخط */
+  margin-left: 20px;
+}
+/* احدث الاخبار*/
+.customier-line {
+  width: 85px; /* عرض الخط */
+  height: 3px; /* ارتفاع الخط */
+  background-color: rgba(39, 133, 120, 0.664); /* لون الخط */
+  margin-left: -40px;
+}
+.sec{
+  display: flex;
+  gap: 120px;
+}
+.sec p2{
+margin-right: 100px;
+}
+/*card*/
+
+.card {
+  width: 100px;
+  height: 254px;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+ 
+ .shadow {
+  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+              0 0  0 2px rgb(190, 190, 190),
+              0.3em 0.3em 1em rgba(0,0,0,0.3);
+ }
+
+
